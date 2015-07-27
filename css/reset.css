@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+/* Fonts */
+
+@font-face {
+    font-family: 'helveticaregular';
+    src: url('../fonts/helvetica.eot');
+    src: url('../fonts/helvetica.svg#helveticaregular') format('svg'),
+    url('../fonts/helvetica.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helvetica.woff') format('woff'),
+    url('../fonts/helvetica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'helveticaneuecyrbold';
+    src: url('../fonts/helveticaneuecyr-bold.eot');
+    src: url('../fonts/helveticaneuecyr-bold.svg#helveticaneuecyrbold') format('svg'),
+    url('../fonts/helveticaneuecyr-bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneuecyr-bold.woff') format('woff'),
+    url('../fonts/helveticaneuecyr-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+BODY {
+    font-family: 'helveticaregular', Helvetica;
+}
+BODY {
+    width: 100%;
+    font-size: 90%;
+    background: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #000;
+    min-width: 960px;
+}
+.ie8 body,
+body.win.mozilla {
+    font-family: Arial, Helvetica;
+}
+.mac input {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+DIV, UL, UL LI, FORM, DL, DL DT, DL DD, H1, H2, H3, H4, H5, H6 {
+    margin: 0;
+    padding: 0;
+}
+SELECT, TEXTAREA, INPUT, BUTTON {
+    margin: 0;
+}
+input[type='submit'],
+input[type='button'] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+}
+P {	margin-top: 0;	}
+H1, H2, H3, H4, H5, H6 {	font-weight: normal;	}
+UL {	list-style: none;	}
+IMG {	border: 0;	}
+A {
+    color: #0154bb;
+    background: transparent;
+}
+
+TABLE {
+    border: 0;
+    border-collapse: collapse;
+    width: 100%;
+}
+TABLE TD, TABLE TH {
+    padding: 0;
+    vertical-align: top;
+}

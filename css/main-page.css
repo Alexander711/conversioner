@@ -1,0 +1,226 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.print-screen {
+	margin: 0 -1px;
+}
+
+.steps-box {
+	width: 980px;
+}
+
+.main-info-box div.main-box {
+	padding-bottom: 60px;
+}
+
+
+.main-info-box h2 {
+	margin-bottom: 50px;
+}
+
+.main-info-box .abilities {
+	width: 185px;
+	padding: 26px 19px; 
+	border-radius: 4px;
+	border: 1px solid #ddd;
+	background: #fcfcfc;
+	margin: 0 20px 20px 0;
+	float: left;
+}
+
+.main-info-box .abilities i {
+	font-size: 72px;
+}
+
+.main-info-box .abilities h3 {
+	text-transform: uppercase;
+	font-size: 18px;
+	margin: 26px 0;
+}
+
+.main-info-box .abilities p {
+	font-size: 14px;
+	line-height: 18px;
+	color: #626262;
+	margin: 0;
+}
+
+/* Colors */
+.blue1 {
+	color: #18a0d0;
+}
+
+.blue2 {
+	color: #60a8e6;
+}
+
+.blue3 {
+	color: #648bb3;
+}
+
+.blue4 {
+	color: #61CCDA;
+}
+
+.blue5 {
+	color: #33B5E4;
+}
+
+.pink {
+	color: #EC407A;
+}
+
+.orange1 {
+	color: #eeae5f;
+}
+
+.orange2 {
+	color: #ffd473;
+}
+
+.orange3 {
+	color: #f79966;
+}
+
+.orange4 {
+	color: #FFC107;
+}
+
+.orange5 {
+	color: #FFA02E;
+}
+
+.red1 {
+	color: #d8557a;
+}
+
+.red2 {
+	color: #f1727a;
+}
+
+.red3 {
+	color: #FF7043;
+}
+
+.violet1 {
+	color: #ae86d1;
+}
+
+.violet2 {
+	color: #D579D0;
+}
+
+.green1 {
+	color: #72bb68;
+}
+
+.green2 {
+	color: #9acb5f;
+}
+
+.green3 {
+	color: #62c2c1;
+}
+
+.green4 {
+	color: #B8D24E;
+}
+
+.green5 {
+	color: #83CF68;
+}
+
+.indigo {
+	color: #7986CB;
+}
+
+
+.hangs {
+	margin: 25px 0 40px 0;
+	position: relative;
+}
+
+.hangs i {
+	color: #ddd;
+	font-size: 36px;
+}
+
+.hangs:before {
+	content: '';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 15px;
+	width: 442px;
+	height: 1px;
+	background: #ddd;
+}
+
+.hangs:after {
+	content: '';
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 15px;
+	width: 442px;
+	height: 1px;
+	background: #ddd;
+}
+
+
+.butt.butt-middle {
+	font-size: 14px;
+}
+
+
+.main_page_comments {
+	margin-bottom: 47px;
+}
+
+.main_page_comments .faces {
+	width: 980px;
+}
+
+.main_page_comments .faces .wrap {
+	margin: 0 auto;
+	display: inline-block;
+}
+
+.main_page_comments .faces img {
+	display: block;
+	margin-right: 20px;
+	border-radius: 4px;
+	float: left;
+	opacity: 1;
+	cursor: pointer;
+	-webkit-transition: opacity .2s;
+	transition: opacity .5s;
+}
+
+.main_page_comments .faces img.active {
+	opacity: 0.5;
+}
+
+.main_page_comments .user_comment {
+	margin-top: 34px;
+	display: none;
+}
+
+.main_page_comments .user_comment.active {
+	display: block;
+}
+
+.main_page_comments .user_comment p {
+	font-size: 18px;
+	margin: 0 100px 20px 100px;
+	line-height: 22px;
+}
+
+.main_page_comments .user_comment h6 {
+	color: #626262;
+	font-size: 16px;
+}
+
+.main_page_comments .user_comment h6 a {
+	color: #60A8E6;
+}
